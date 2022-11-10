@@ -1,13 +1,19 @@
-setTimeout(p1,8000)
-function p1(){
-    console.log("call pizza")
-    setTimeout(p2,4000)
-}
-function p2(){
-    console.log("prepared order")
-    setTimeout(p3,2000)
-}
-function p3(){
-    console.log("delivered")
-    
-}
+console.log("call to dominoz")
+setTimeout(()=>{console.log("give order")},1000)
+// after 5 min
+setTimeout(()=>{console.log("preparing a pizaa")},5000)
+
+
+// it takes 6 
+setTimeout(()=>{console.log("ready to pack")},6000)
+
+
+// after 1 min
+setTimeout(()=>{console.log("pick by dilivery boy")},1000)
+
+// with in 10 min
+
+setTimeout(()=>{console.log(console.log("placed order"))},10000)
+setTimeout(()=>{console.log(console.log("enjoy the day!"))},10000)
+
+
